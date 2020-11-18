@@ -1,0 +1,124 @@
+.content__main__adjust {
+  display: flex;
+  .quick__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.quick__search__p {
+  @include font__quick();
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.easily__search {
+  @include under__quick__p();
+  width: 50%;
+}
+.icloud__p {
+  @include font__quick();
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.instantly__p {
+  @include under__quick__p();
+  width: 50%;
+}
+.complete__p {
+  @include font__quick();
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.retrieve__p {
+  @include under__quick__p();
+  width: 50%;
+}
+.access__clip__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.acces__clip__p {
+  @include font__quick();
+  font-size: 30px;
+  opacity: 0.8;
+}
+.whether__you__p {
+  @include under__quick__p();
+  margin-top: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.supercharge__p {
+  @include font__quick();
+  font-size: 30px;
+  opacity: 0.8;
+}
+.weve__got__p {
+  @include under__quick__p();
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.content__3blocks__container {
+  display: flex;
+  justify-content: space-around;
+}
+.content__block1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.block1__p2 {
+  @include under__quick__p();
+  width: 50%;
+  margin-left: 160px;
+}
+
+.block1__p1 {
+  @include font__quick();
+  padding-bottom: 20px;
+}
+.container__four__logos {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  margin-top: 200px;
+}
+
+.clipboard__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.clipboard__buttons__container {
+  display: flex;
+  margin-top: 40px;
+}
+.clipboard__p1 {
+  @include font__quick();
+  margin-bottom: 15px;
+}
+.clipboard__p2 {
+  @include under__quick__p();
+  width: 70%;
+  text-align: center;
+  margin-left: 150px;
+}
+.clipboard__button1 {
+  @include button__green();
+}
+.clipboard__button2 {
+  @include button__blue();
+}

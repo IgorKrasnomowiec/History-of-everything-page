@@ -1,0 +1,54 @@
+.header__main {
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header__column__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.two__buttons {
+  display: flex;
+  justify-content: center;
+}
+.symbol__c {
+  font-size: 100px;
+  font-weight: bold;
+  color: $color__c;
+}
+.historyof__p {
+  font-family: "Bai Jamjuree";
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.header__second__p {
+  font-family: "Open Sans";
+  margin-bottom: 40px;
+  text-align: center;
+}
+.header__green__button {
+  @include button__green();
+}
+.header__blue__button {
+  @include button__blue();
+}
+.snippets__p {
+  font-family: "Bai Jamjuree";
+  margin-top: 90px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.track__under__p {
+  margin-top: 20px;
+  font-family: "Open Sans";
+  margin-bottom: 40px;
+  text-align: center;
+}
