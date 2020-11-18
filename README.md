@@ -1,6 +1,6 @@
 # Frontend Mentor - Clipboard landing page
 
-![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
+https://history-of-everything-page-nhvwtrddm.vercel.app/
 
 ## Welcome! 👋
 
