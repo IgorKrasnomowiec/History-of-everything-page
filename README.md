@@ -1,6 +1,6 @@
 # Frontend Mentor - Clipboard landing page
 
-https://history-of-everything-page-nhvwtrddm.vercel.app/
+
 
 ## Welcome! 👋
 
